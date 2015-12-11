@@ -9,6 +9,8 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
             if (typeof label === 'object') label = label[lang];
 
             lang = lang + '/';
+        } else {
+          lang = "";
         }
 
         // Add slash at the end if not present
